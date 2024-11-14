@@ -1,0 +1,286 @@
+{
+    "parenting_children_autism": [
+      {
+        "type": "book",
+        "title": "The Kids' Guide to Staying Awesome and in Control",
+        "author": "Lauren Brukner",
+        "description": "A practical guide to help children manage their emotions and sensory responses through exercises like deep breathing and movement.",
+        "audience": ["parent-guardian", "caregiver", "therapist"],
+        "condition": ["autism-spectrum", "life-skills", "sensory-processing"]
+      },
+      {
+        "type": "book",
+        "title": "A Parent's Guide to Asperger Syndrome & High-Functioning Autism",
+        "author": "Sally Ozonoff et al.",
+        "description": "This book provides guidance on supporting children with Asperger's and high-functioning autism, focusing on social skills and daily living.",
+        "audience": ["parent-guardian", "therapist"],
+        "condition": ["autism-spectrum", "sensory-processing"]
+      },
+      {
+        "type": "book",
+        "title": "The Out-of-Sync Child",
+        "author": "Carol Stock Kranowitz",
+        "description": "A foundational book on sensory processing disorder, offering insight and strategies to support children with sensory challenges.",
+        "audience": ["caregiver", "therapist"],
+        "condition": ["life-skills", "sensory-processing"]
+      },
+      {
+        "type": "book",
+        "title": "Uniquely Human: A Different Way of Seeing Autism",
+        "author": "Barry M. Prizant",
+        "description": "Prizant’s book provides a compassionate perspective on autism, encouraging caregivers to understand behaviors as part of a child’s coping mechanism.",
+        "audience": ["therapist", "parent-guardian"],
+        "condition": ["autism-spectrum", "sensory-processing"]
+      },
+      {
+        "type": "activity",
+        "title": "Emotion Charades",
+        "description": "A fun game where players act out various emotions for others to guess, helping children improve emotional expression and recognition.",
+        "audience": ["parent-guardian", "caregiver", "therapist"],
+        "condition": ["autism-spectrum", "sensory-processing"]
+      },
+      {
+        "type": "activity",
+        "title": "Sensory Scavenger Hunt",
+        "description": "An interactive activity where children find items with specific textures, sounds, or colors, promoting sensory exploration and processing skills.",
+        "audience": ["therapist", "caregiver"],
+        "condition": ["life-skills", "sensory-processing"]
+      },
+      {
+        "type": "activity",
+        "title": "Visual Schedule Creation",
+        "description": "A hands-on activity for children to create their daily schedule using images, fostering routine-building skills and independence.",
+        "audience": ["parent-guardian", "therapist"],
+        "condition": ["life-skills", "autism-spectrum"]
+      }
+    ]
+  }
+  {
+    "personal_growth_relationships": [
+      {
+        "type": "book",
+        "title": "The Seven Principles for Making Marriage Work",
+        "author": "John M. Gottman, Ph.D., and Nan Silver",
+        "description": "A research-backed guide to building and maintaining a healthy marriage through principles like enhancing love maps, nurturing fondness, and resolving conflict constructively.",
+        "audience": ["individual", "therapist"],
+        "condition": ["marriage-relationships", "family-dynamics"]
+      },
+      {
+        "type": "book",
+        "title": "Will I Ever Be Good Enough? Healing the Daughters of Narcissistic Mothers",
+        "author": "Karyl McBride",
+        "description": "This book addresses the impact of narcissistic mothers on their daughters, providing exercises for building self-esteem and finding self-acceptance.",
+        "audience": ["individual"],
+        "condition": ["self-help", "family-dynamics"]
+      },
+      {
+        "type": "book",
+        "title": "True Love: A Practice for Awakening the Heart",
+        "author": "Thich Nhat Hanh",
+        "description": "A mindful approach to love, focusing on compassion, kindness, and joy, helping readers deepen their connections with themselves and others.",
+        "audience": ["individual", "caregiver"],
+        "condition": ["marriage-relationships", "self-help"]
+      },
+      {
+        "type": "book",
+        "title": "Stop Walking on Eggshells: Taking Your Life Back When Someone You Care About Has Borderline Personality Disorder",
+        "author": "Paul T. Mason and Randi Kreger",
+        "description": "This guide provides tools for setting healthy boundaries and managing relationships with loved ones who have borderline personality disorder.",
+        "audience": ["individual", "therapist", "caregiver"],
+        "condition": ["family-dynamics", "self-help"]
+      },
+      {
+        "type": "activity",
+        "title": "Gratitude Journaling",
+        "description": "Encourages individuals to write down things they’re grateful for daily, improving self-awareness and fostering a positive mindset.",
+        "audience": ["individual", "caregiver"],
+        "condition": ["self-help", "family-dynamics"]
+      },
+      {
+        "type": "activity",
+        "title": "Active Listening Exercises",
+        "description": "An interactive activity to help individuals and couples practice attentive listening, enhancing understanding and empathy in relationships.",
+        "audience": ["therapist", "caregiver"],
+        "condition": ["marriage-relationships", "self-help"]
+      },
+      {
+        "type": "activity",
+        "title": "Mindful Breathing",
+        "description": "A simple exercise in mindfulness where individuals focus on their breathing to center themselves, reduce stress, and improve self-regulation.",
+        "audience": ["individual", "therapist"],
+        "condition": ["marriage-relationships", "self-help"]
+      }
+    ]
+  }
+  {
+    "mental_health_healing": [
+      {
+        "type": "book",
+        "title": "Writing as a Way of Healing: How Telling Our Stories Transforms Our Lives",
+        "author": "Louise DeSalvo",
+        "description": "This book explores the therapeutic power of writing, helping readers use storytelling as a tool for processing trauma and building resilience.",
+        "audience": ["individual", "therapist", "caregiver"],
+        "condition": ["emotional-healing", "self-care"]
+      },
+      {
+        "type": "book",
+        "title": "Childhood Disrupted: How Your Biography Becomes Your Biology, and How You Can Heal",
+        "author": "Donna Jackson Nakazawa",
+        "description": "An exploration of the lasting impact of childhood trauma on adult health, offering healing strategies like mindfulness and therapy to overcome early-life stress.",
+        "audience": ["individual", "therapist", "caregiver"],
+        "condition": ["emotional-healing", "childhood-trauma"]
+      },
+      {
+        "type": "book",
+        "title": "Grief Relief in 30 Minutes: How to Use the Peace Method to Go from Heartbreak to Happiness",
+        "author": "Aurora Winter",
+        "description": "Winter introduces the Peace Method, combining neuroscience and visualization to help readers process grief and regain joy.",
+        "audience": ["individual", "therapist"],
+        "condition": ["emotional-healing", "self-care"]
+      },
+      {
+        "type": "book",
+        "title": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
+        "author": "Bessel van der Kolk",
+        "description": "This book provides insights on how trauma affects the brain and body and offers practices for recovery, such as therapy, mindfulness, and movement.",
+        "audience": ["individual", "therapist"],
+        "condition": ["emotional-healing", "self-care"]
+      },
+      {
+        "type": "activity",
+        "title": "Guided Meditation",
+        "description": "A practice where individuals focus on calming the mind, which can help reduce stress and promote emotional healing.",
+        "audience": ["individual", "caregiver", "therapist"],
+        "condition": ["emotional-healing", "self-care"]
+      },
+      {
+        "type": "activity",
+        "title": "Expressive Arts Therapy",
+        "description": "An activity where individuals use art, music, or dance to express and process emotions, aiding in healing and self-discovery.",
+        "audience": ["therapist", "caregiver"],
+        "condition": ["self-care", "emotional-healing"]
+      },
+      {
+        "type": "activity",
+        "title": "Journaling for Trauma Processing",
+        "description": "Encourages individuals to write about their experiences, providing a safe space to confront and process past trauma.",
+        "audience": ["individual", "therapist"],
+        "condition": ["self-care", "childhood-trauma"]
+      }
+    ]
+  }
+  {
+    "education_learning": [
+      {
+        "type": "book",
+        "title": "Mindfulness for Beginners: Reclaiming the Present Moment—and Your Life",
+        "author": "Jon Kabat-Zinn",
+        "description": "An introduction to mindfulness practices that teach present-moment awareness, helping educators and caregivers reduce stress and improve well-being.",
+        "audience": ["teacher", "parent-guardian", "therapist"],
+        "condition": ["education", "cognitive-development"]
+      },
+      {
+        "type": "book",
+        "title": "Grit: The Power of Passion and Perseverance",
+        "author": "Angela Duckworth",
+        "description": "This book examines how passion and perseverance drive success, offering insights into fostering resilience and sustained effort in learning environments.",
+        "audience": ["teacher", "parent-guardian", "therapist"],
+        "condition": ["education", "cognitive-development"]
+      },
+      {
+        "type": "book",
+        "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "author": "James Clear",
+        "description": "A practical guide to building good habits and breaking bad ones through incremental changes, emphasizing the power of consistency and small improvements.",
+        "audience": ["teacher", "therapist"],
+        "condition": ["cognitive-development", "education"]
+      },
+      {
+        "type": "book",
+        "title": "Achieving Equity & Excellence",
+        "author": "Douglas Reeves",
+        "description": "Strategies for promoting equity and success in education through data-driven decision-making, useful for educators and parents focused on student achievement.",
+        "audience": ["teacher", "parent-guardian"],
+        "condition": ["education", "cognitive-development"]
+      },
+      {
+        "type": "activity",
+        "title": "Goal-Setting Workshop",
+        "description": "An interactive session where students or clients set and discuss their short-term and long-term goals, helping to improve focus and perseverance.",
+        "audience": ["teacher", "therapist"],
+        "condition": ["education", "cognitive-development"]
+      },
+      {
+        "type": "activity",
+        "title": "Group Reading Sessions",
+        "description": "Facilitates group reading to promote literacy and cognitive development, with each participant reading and discussing sections of a text together.",
+        "audience": ["teacher", "parent-guardian"],
+        "condition": ["education"]
+      },
+      {
+        "type": "activity",
+        "title": "Mind Mapping Exercises",
+        "description": "Encourages learners to create visual diagrams that connect ideas, enhancing memory retention and conceptual understanding.",
+        "audience": ["teacher", "parent-guardian"],
+        "condition": ["cognitive-development"]
+      }
+    ]
+  }
+  {
+    "professional_development_business": [
+      {
+        "type": "book",
+        "title": "The One Minute Manager",
+        "author": "Kenneth Blanchard and Spencer Johnson",
+        "description": "A classic on efficient management, introducing techniques like one-minute goals and praising for productivity improvement in the workplace.",
+        "audience": ["individual", "business-leader"],
+        "condition": ["management", "productivity"]
+      },
+      {
+        "type": "book",
+        "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "author": "James Clear",
+        "description": "This book provides practical guidance on habit-building through small, incremental changes, emphasizing the value of consistency for business and personal success.",
+        "audience": ["individual", "business-leader", "entrepreneur"],
+        "condition": ["productivity", "team-building"]
+      },
+      {
+        "type": "book",
+        "title": "Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead",
+        "author": "Brené Brown",
+        "description": "A study on vulnerability's role in leadership and personal growth, encouraging leaders to embrace openness for stronger teams and innovative organizations.",
+        "audience": ["business-leader", "entrepreneur"],
+        "condition": ["management", "productivity"]
+      },
+      {
+        "type": "book",
+        "title": "The Five Dysfunctions of a Team",
+        "author": "Patrick Lencioni",
+        "description": "A guide to identifying and overcoming common team challenges, focusing on building trust, fostering accountability, and achieving collective goals.",
+        "audience": ["individual", "business-leader", "entrepreneur"],
+        "condition": ["team-building", "management"]
+      },
+      {
+        "type": "activity",
+        "title": "Team-Building Workshop",
+        "description": "An interactive session where team members engage in problem-solving activities, enhancing collaboration and communication skills.",
+        "audience": ["business-leader", "entrepreneur"],
+        "condition": ["team-building", "productivity"]
+      },
+      {
+        "type": "activity",
+        "title": "Time Management Challenge",
+        "description": "An activity where participants track their daily tasks and identify areas for efficiency improvement, promoting productivity and work-life balance.",
+        "audience": ["individual", "business-leader"],
+        "condition": ["management", "productivity"]
+      },
+      {
+        "type": "activity",
+        "title": "Goal Alignment Exercise",
+        "description": "An exercise to help leaders and entrepreneurs align their personal and professional goals, fostering clarity and direction in their work.",
+        "audience": ["entrepreneur", "individual"],
+        "condition": ["management"]
+      }
+    ]
+  }
+     

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asksibot - The Occupational Therapy Hub</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #d3d3d3;
+            width: 100%;
+            padding: 20px 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header img {
+            width: 70px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .subtext {
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        nav {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        nav a {
+            margin: 5px 10px;
+            color: black;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        /* New intro styles */
+        .intro-heading {
+            font-size: 1.8em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .intro-text {
+            font-size: 1em;
+            max-width: 800px;
+            margin: 0 auto 20px;
+            padding: 0 20px;
+        }
+
+        /* Button styles */
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .grid-button {
+            display: inline-block;
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 1.2em;
+            color: #000;
+            background-color: #fdb201;
+            border-radius: 30px;
+            border: 5px solid #000;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .grid-button:hover {
+            background-color: #1d1e20;
+            color: #fff;
+        }
+
+        /* Three columns section */
+        .three-columns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .three-columns .column {
+            flex: 1;
+            min-width: 250px;
+            max-width: 350px;
+            margin: 10px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        .three-columns .column h3 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            color: #fdb201;
+        }
+
+        .three-columns .column p {
+            font-size: 0.95em;
+            line-height: 1.5em;
+            color: #333;
+        }
+
+        /* Section header */
+        .section-header {
+            font-size: 1.5em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 1000px) {
+            .three-columns {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .three-columns .column {
+                margin: 10px 0;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            .subtext {
+                font-size: 0.8em;
+                line-height: 1.4em;
+            }
+
+            nav a {
+                font-size: 0.9em;
+                margin: 5px 8px;
+            }
+
+            .grid-button {
+                padding: 10px 20px;
+                font-size: 1em;
+                margin: 10px 5px;
+            }
+
+            .intro-heading {
+                font-size: 1.4em;
+            }
+
+            .intro-text {
+                font-size: 0.9em;
+                padding: 0 15px;
+            }
+
+            .section-header {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="media/asksiboticon.png" alt="Asksibot Logo">
+    <h1>Asksibot - The Occupational Therapy Hub</h1>
+    <p class="subtext">Developed on OpenAI by Christopher Horne, OTR/L</p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="/surveys/survey_selection.html">Surveys</a>
+        <a href="/timeline/timelineupto80.html">Timeline</a>
+        <a href="/shop/index.html">Shop</a>
+        <a href="/contact.html">Contact</a>
+	<a href="pictogram/pictogram_search.html">Pictogram Search Assistant</a> <!-- New Link -->
+    </nav>
+</header>
+
+<h2 class="intro-heading">Unlock Occupational Therapy Insights</h2>
+<p class="intro-text">Explore Asksibot, your go-to hub for Occupational Therapy resources. Discover tools, assessments, and surveys designed to enhance understanding of neurodiversity and sensory preferences. Save and download personalized insights to support your journey.</p>
+
+<div class="container">
+    <a href="/surveys/survey_selection.html" class="grid-button">Try Asksibot Surveys</a>
+    <a href="/info/index.html" class="grid-button">Asksibot for OT Information</a>
+    <a href="/shop/index.html" class="grid-button">Shop Asksibot</a>
+    <a href="pictogram/pictogram_search.html" class="grid-button">Asksibot for Pictogram Help</a> <!-- Updated Link -->
+    <a href="/crisis_resources/" class="grid-button">Asksibot Crisis Resources Page</a>
+</div>
+
+<h2 class="section-header">Why Asksibot</h2>
+<div class="three-columns">
+    <div class="column">
+        <h3>Comprehensive Occupational Therapy Resources</h3>
+        <p>Asksibot offers an all-encompassing platform for Occupational Therapy, providing expertly curated resources that cater to individuals interested in neurodiversity and sensory challenges. Our tools are designed to equip you with the knowledge and insights necessary for effective understanding of self and others.</p>
+    </div>
+    <div class="column">
+        <h3>Customizable Surveys and Assessments</h3>
+        <p>With Asksibot, users have access to tailored Occupational Therapy surveys and assessments that help identify sensory preferences and working styles. These targeted tools ensure that you gain meaningful insights, which can be saved and downloaded for future reference.</p>
+    </div>
+    <div class="column">
+        <h3>Empowering Neurodiversity and Sensory Awareness</h3>
+        <p>Asksibot is dedicated to fostering an inclusive environment by raising awareness and providing resources for those interested in neurodiversity and sensory challenges. Our platform empowers users with the knowledge and tools needed to embrace and support diverse sensory experiences effectively.</p>
+    </div>
+    <div class="column">
+        <h3>Pictograms and Visual Stories for ASD</h3>
+        <p>We understand the importance of visual aids in communication, especially for individuals with Autism Spectrum Disorder (ASD). Asksibot provides guidance on using pictograms and visual stories to enhance understanding and interaction. Learn how to leverage resources from ARASAAC to support those with ASD effectively.</p>
+    </div>
+</div>
+
+</body>
+</html>

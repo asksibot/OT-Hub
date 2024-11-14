@@ -49,7 +49,7 @@
         <button onclick="clearFilters('growth')">Clear Filters</button>
     </div>
 
-    <div class="book-category" id="personal-growth">
+<div class="book-category" id="personal-growth">
         <ul>
             <!-- Book Item 1 -->
             <li data-audience="individual" data-condition="marriage-relationships self-help">

@@ -1,0 +1,92 @@
+<div class="filter-section">
+    <h2>Mental Health & Healing</h2>
+    
+    <!-- Audience Filter -->
+    <label for="audience-filter-health">Select Audience:</label>
+    <select id="audience-filter-health">
+        <option value="">All</option>
+        <option value="individual">Individual</option>
+        <option value="therapist">Therapist</option>
+        <option value="caregiver">Caregiver</option>
+        <!-- Add other audience options as needed -->
+    </select>
+
+    <!-- Condition Filter -->
+    <label for="condition-filter-health">Select Condition:</label>
+    <select id="condition-filter-health">
+        <option value="">All</option>
+        <option value="emotional-healing">Emotional Healing</option>
+        <option value="childhood-trauma">Childhood Trauma</option>
+        <option value="self-care">Self-Care</option>
+        <!-- Add other condition options as needed -->
+    </select>
+
+    <!-- Keyword Search -->
+    <label for="search-keyword-health">Keyword Search:</label>
+    <input type="text" id="search-keyword-health" placeholder="Enter keyword">
+
+    <div class="filter-buttons">
+        <button onclick="applyFilters('health')">Apply Filters</button>
+        <button onclick="clearFilters('health')">Clear Filters</button>
+    </div>
+
+    <div class="book-category" id="mental-health">
+        <ul>
+            <!-- Book Item 1 -->
+            <li data-audience="individual therapist" data-condition="writing therapy emotional-healing">
+                <strong>Writing as a Way of Healing</strong> by Louise DeSalvo
+                <p>This book highlights the therapeutic benefits of writing for self-healing, providing exercises to process emotions and address trauma.</p>
+            </li>
+
+            <!-- Book Item 2 -->
+            <li data-audience="individual therapist" data-condition="childhood-trauma health-recovery">
+                <strong>Childhood Disrupted</strong> by Donna Jackson Nakazawa
+                <p>Explores the link between childhood trauma and adult health, covering Adverse Childhood Experiences (ACEs) and techniques for recovery.</p>
+            </li>
+
+            <!-- Book Item 3 -->
+            <li data-audience="individual neurodivergent caregiver" data-condition="adhd self-care mental-health">
+                <strong>Self-Care for People with ADHD</strong> by Sasha Hamdani, MD
+                <p>A guide for managing ADHD through self-care, covering organization, stress-relief, and emotional health for greater well-being.</p>
+            </li>
+
+            <!-- Add more book items as needed -->
+        </ul>
+    </div>
+</div>
+// Function to apply filters for a given section
+function applyFilters(section) {
+    const audienceFilter = document.getElementById(`audience-filter-${section}`).value;
+    const conditionFilter = document.getElementById(`condition-filter-${section}`).value;
+    const keyword = document.getElementById(`search-keyword-${section}`).value.toLowerCase();
+    const bookItems = document.querySelectorAll(`#${section} ul li`);
+
+    // Filter books based on selected audience, condition, and keyword
+    bookItems.forEach(book => {
+        const audience = book.getAttribute('data-audience');
+        const condition = book.getAttribute('data-condition');
+        const title = book.querySelector('strong').textContent.toLowerCase();
+        const description = book.querySelector('p').textContent.toLowerCase();
+
+        const matchesAudience = !audienceFilter || audience.includes(audienceFilter);
+        const matchesCondition = !conditionFilter || condition.includes(conditionFilter);
+        const matchesKeyword = !keyword || title.includes(keyword) || description.includes(keyword);
+
+        // Show or hide the book item based on filters
+        book.style.display = matchesAudience && matchesCondition && matchesKeyword ? 'block' : 'none';
+    });
+}
+
+// Function to clear filters for a given section
+function clearFilters(section) {
+    // Reset filter dropdowns and keyword input
+    document.getElementById(`audience-filter-${section}`).value = "";
+    document.getElementById(`condition-filter-${section}`).value = "";
+    document.getElementById(`search-keyword-${section}`).value = "";
+
+    // Show all book items in the section
+    const bookItems = document.querySelectorAll(`#${section} ul li`);
+    bookItems.forEach(book => {
+        book.style.display = 'block';
+    });
+}

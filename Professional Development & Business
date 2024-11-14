@@ -1,0 +1,98 @@
+<div class="filter-section">
+    <h2>Professional Development & Business</h2>
+    
+    <!-- Audience Filter -->
+    <label for="audience-filter-business">Select Audience:</label>
+    <select id="audience-filter-business">
+        <option value="">All</option>
+        <option value="individual">Individual</option>
+        <option value="business-leader">Business Leader</option>
+        <option value="entrepreneur">Entrepreneur</option>
+        <!-- Add other audiences as needed -->
+    </select>
+
+    <!-- Condition Filter -->
+    <label for="condition-filter-business">Select Condition:</label>
+    <select id="condition-filter-business">
+        <option value="">All</option>
+        <option value="management">Management</option>
+        <option value="productivity">Productivity</option>
+        <option value="team-building">Team Building</option>
+        <option value="innovation">Innovation</option>
+        <option value="conflict-resolution">Conflict Resolution</option>
+        <!-- Add other conditions as needed -->
+    </select>
+
+    <!-- Keyword Search -->
+    <label for="search-keyword-business">Keyword Search:</label>
+    <input type="text" id="search-keyword-business" placeholder="Enter keyword">
+
+    <div class="filter-buttons">
+        <button onclick="applyFilters('business')">Apply Filters</button>
+        <button onclick="clearFilters('business')">Clear Filters</button>
+    </div>
+
+    <div class="book-category" id="business">
+        <ul>
+            <!-- Book Item 1 -->
+            <li data-audience="individual therapist" data-condition="conflict-resolution communication workplace-skills">
+                <strong>Managing Difficult People in a Week</strong> by David Cotton
+                <p>Provides strategies for understanding and handling challenging personalities in the workplace, covering boundary-setting, conflict resolution, and effective communication techniques.</p>
+            </li>
+            
+            <!-- Book Item 2 -->
+            <li data-audience="individual business-leader" data-condition="management productivity team-building">
+                <strong>The One Minute Manager</strong> by Kenneth Blanchard and Spencer Johnson
+                <p>A classic on efficient management, introducing techniques such as one-minute goals, one-minute praising, and one-minute reprimands, designed to foster accountability and boost productivity.</p>
+            </li>
+
+            <!-- Book Item 3 -->
+            <li data-audience="business-leader entrepreneur" data-condition="business-models innovation entrepreneurship">
+                <strong>Business Model Generation</strong> by Alexander Osterwalder and Yves Pigneur
+                <p>A practical guide to creating innovative business models, covering essential components like value propositions, customer segmentation, and adapting to change in a dynamic market.</p>
+            </li>
+
+            <!-- Book Item 4 -->
+            <li data-audience="business-leader individual" data-condition="leadership team-building productivity">
+                <strong>Leaders Eat Last</strong> by Simon Sinek
+                <p>Explores leadership that fosters trust, collaboration, and safety within teams, providing insights on how empathetic leadership can inspire success and loyalty in organizations.</p>
+            </li>
+
+            <!-- Book Item 5 -->
+            <li data-audience="individual business-leader" data-condition="self-improvement focus productivity">
+                <strong>Deep Work: Rules for Focused Success in a Distracted World</strong> by Cal Newport
+                <p>Examines the importance of deep, focused work in achieving professional success, offering strategies for minimizing distractions and maximizing productivity in a digital age.</p>
+            </li>
+
+            <!-- Book Item 6 -->
+            <li data-audience="entrepreneur individual" data-condition="motivation productivity innovation">
+                <strong>Drive: The Surprising Truth About What Motivates Us</strong> by Daniel H. Pink
+                <p>Reveals insights on motivation, challenging traditional incentives, and presenting autonomy, mastery, and purpose as key drivers for effective performance and job satisfaction.</p>
+            </li>
+
+            <!-- Book Item 7 -->
+            <li data-audience="business-leader individual" data-condition="negotiation communication conflict-resolution">
+                <strong>Getting to Yes: Negotiating Agreement Without Giving In</strong> by Roger Fisher, William Ury, and Bruce Patton
+                <p>A negotiation classic that introduces principled negotiation techniques to reach win-win solutions, emphasizing mutual respect and clear communication to resolve conflicts effectively.</p>
+            </li>
+
+            <!-- Book Item 8 -->
+            <li data-audience="individual business-leader" data-condition="decision-making management strategy">
+                <strong>Thinking, Fast and Slow</strong> by Daniel Kahneman
+                <p>An exploration of decision-making, introducing the concepts of fast (intuitive) and slow (analytical) thinking, and how they impact our choices, reasoning, and bias in business and personal life.</p>
+            </li>
+
+            <!-- Book Item 9 -->
+            <li data-audience="business-leader entrepreneur" data-condition="entrepreneurship business-strategy scaling">
+                <strong>Scaling Up: How a Few Companies Make It...and Why the Rest Don’t</strong> by Verne Harnish
+                <p>Offers strategies for scaling businesses effectively, covering key areas like team alignment, cash flow, and customer focus to support sustainable growth for startups and small businesses.</p>
+            </li>
+
+            <!-- Book Item 10 -->
+            <li data-audience="entrepreneur individual" data-condition="entrepreneurship innovation creativity">
+                <strong>The Lean Startup</strong> by Eric Ries
+                <p>A guide to building successful startups through rapid prototyping, validated learning, and continuous improvement, aiming to minimize waste and create products that truly meet customer needs.</p>
+            </li>
+        </ul>
+    </div>
+</div>
